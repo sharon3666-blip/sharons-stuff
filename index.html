@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="description" content="Shop the best products at Sharon’s stuff">
+  <meta name="keywords" content="shopping, deals, products">
+  <meta name="robots" content="index, follow">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sharon’s stuff">
+  <meta property="og:description" content="Shop the best products at Sharon’s stuff">
+  <meta property="og:image" content="https://filebroker-cdn.lazada.co.th/kf/S1d7c869307ea43a7a8e75b18c77ee711N.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sharon’s stuff">
+  <meta name="twitter:description" content="Shop the best products at Sharon’s stuff">
+  <meta name="twitter:image" content="https://filebroker-cdn.lazada.co.th/kf/S1d7c869307ea43a7a8e75b18c77ee711N.jpg">
+  <title>Sharon’s stuff - Powered by AffiliateMe</title>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Sharon’s stuff","description":"Products from Sharon’s stuff","numberOfItems":1,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"[แพ็คx3] ลอรีอัล ปารีส L'Oreal Paris Gentle Lip & Eye Makeup Remover 125ml คลีนซิ่งล้างเครื่องสำอางกันน้ำ สูตรอ่อนโยน","image":"https://filebroker-cdn.lazada.co.th/kf/S1d7c869307ea43a7a8e75b18c77ee711N.jpg","offers":{"@type":"Offer","price":"689","priceCurrency":"THB","availability":"https://schema.org/InStock","url":"https://www.lazada.co.th/products/i3504661626.html"}}}]}</script>
+  <style>
+
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --header-bg: #1e293b;
+      --primary: #6366f1;
+      --accent: #f59e0b;
+      --heading-color: #f8fafc;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .header {
+      padding: 1.5rem 2rem;
+      background: var(--header-bg);
+      color: white;
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      opacity: 0.9;
+    }
+
+    .nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      padding: 3rem 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, rgba(37, 99, 235, 0.05) 0%, transparent 100%);
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      color: var(--heading-color);
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1024px) {
+      .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .product-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.1);
+    }
+
+    .product-image-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-image {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover .product-image {
+      transform: scale(1.03);
+    }
+
+    .product-rating {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .product-rating::before {
+      content: '★';
+      color: var(--accent);
+    }
+
+    .product-info {
+      padding: 1.25rem;
+    }
+
+    .product-title {
+      font-size: 0.875rem;
+      font-weight: 500;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 2.6rem;
+      color: var(--text);
+    }
+
+    .product-price {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-top: 0.5rem;
+    }
+
+    .product-btn {
+      display: block;
+      width: 100%;
+      padding: 0.875rem;
+      margin-top: 1rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .product-btn:hover {
+      background: #1d4ed8;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">Sharon’s stuff</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Sharon’s stuff</h1>
+    <p>Curated collection of premium products at unbeatable prices</p>
+  </section>
+  
+  <main class="products-grid">
+    
+    <article class="product-card">
+      <div class="product-image-container">
+        <img src="https://filebroker-cdn.lazada.co.th/kf/S1d7c869307ea43a7a8e75b18c77ee711N.jpg" alt="[แพ็คx3] ลอรีอัล ปารีส L&#039;Oreal Paris Gentle Lip &amp; Eye Makeup Remover 125ml คลีนซิ่งล้างเครื่องสำอางกันน้ำ สูตรอ่อนโยน" class="product-image">
+        
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">[แพ็คx3] ลอรีอัล ปารีส L&#039;Oreal Paris Gentle Lip &amp; Eye Makeup Remover 125ml คลีนซิ่งล้างเครื่องสำอางกันน้ำ สูตรอ่อนโยน</h2>
+        <p class="product-price">฿689</p>
+        <a href="https://www.lazada.co.th/products/i3504661626.html" target="_blank" rel="noopener" class="product-btn">Shop Now</a>
+      </div>
+    </article>
+  </main>
+  
+  
+  <footer class="footer">
+    <p>© 2026 Sharon’s stuff. Powered by AffiliateMe</p>
+  </footer>
+  
+</body>
+</html>
